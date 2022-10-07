@@ -30,43 +30,27 @@ class LoginViewController: UIViewController {
     
     private let userIDTextField: UITextField = {
         let textField = UITextField(frame: CGRect(x: 22, y: 300, width: 350, height: 50))
-        textField.backgroundColor = .white
-        textField.font = .systemFont(ofSize: 16, weight: .medium)
+        textField.setUnderline()
         textField.placeholder = "이메일 또는 전화번호"
-        let underLine = CALayer()
-        underLine.backgroundColor = UIColor.systemGray5.cgColor
-        underLine.frame = CGRect(x: 0, y: 50, width: 350, height: 1)
-        textField.layer.addSublayer(underLine)
         return textField
     }()
     
     private let passwordTextField: UITextField = {
         let textField = UITextField(frame: CGRect(x: 22, y: 360, width: 350, height: 50))
-        textField.backgroundColor = .white
-        textField.font = .systemFont(ofSize: 16, weight: .medium)
+        textField.setUnderline()
         textField.placeholder = "비밀번호"
-        let underLine = CALayer()
-        underLine.backgroundColor = UIColor.systemGray5.cgColor
-        underLine.frame = CGRect(x: 0, y: 50, width: 350, height: 1)
-        textField.layer.addSublayer(underLine)
         return textField
     }()
     
     private let loginButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 22, y: 440, width: 350, height: 50))
-        button.setTitle("카카오계정 로그인", for: .normal)
-        button.backgroundColor = .systemGray6
-        button.setTitleColor(.black, for: .normal)
-        button.titleLabel?.font = .systemFont(ofSize: 16)
+        button.setDefaultButton(title: "카카오계정 로그인")
         return button
     }()
     
     private let signupButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 22, y: 500, width: 350, height: 50))
-        button.setTitle("새로운 카카오계정 만들기", for: .normal)
-        button.backgroundColor = .systemGray6
-        button.setTitleColor(.black, for: .normal)
-        button.titleLabel?.font = .systemFont(ofSize: 16)
+        button.setDefaultButton(title: "새로운 카카오계정 만들기")
         return button
     }()
     
@@ -93,5 +77,6 @@ class LoginViewController: UIViewController {
         components.forEach {
             view.addSubview($0 as! UIView)
         }
+        
     }
 }
