@@ -11,6 +11,7 @@ extension UIButton {
     func setDefaultButton(title: String, backgroundColor: UIColor = .systemGray6, titleColor: UIColor = .black) {
         self.setTitle(title, for: .normal)
         self.backgroundColor = backgroundColor
+        self.layer.cornerRadius = 5
         self.setTitleColor(titleColor, for: .normal)
         self.titleLabel?.font = .systemFont(ofSize: 15)
     }
