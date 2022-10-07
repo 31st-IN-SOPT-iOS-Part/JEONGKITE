@@ -53,7 +53,7 @@ class LoginViewController: UIViewController {
     }()
     
     private let loginButton: UIButton = {
-        let button = UIButton(frame: CGRect(x: 22, y: 450, width: 350, height: 50))
+        let button = UIButton(frame: CGRect(x: 22, y: 440, width: 350, height: 50))
         button.setTitle("카카오계정 로그인", for: .normal)
         button.backgroundColor = .systemGray6
         button.setTitleColor(.black, for: .normal)
@@ -62,7 +62,7 @@ class LoginViewController: UIViewController {
     }()
     
     private let signupButton: UIButton = {
-        let button = UIButton(frame: CGRect(x: 22, y: 510, width: 350, height: 50))
+        let button = UIButton(frame: CGRect(x: 22, y: 500, width: 350, height: 50))
         button.setTitle("새로운 카카오계정 만들기", for: .normal)
         button.backgroundColor = .systemGray6
         button.setTitleColor(.black, for: .normal)
@@ -71,7 +71,7 @@ class LoginViewController: UIViewController {
     }()
     
     private let findAccountLabel: UILabel = {
-        let label = UILabel(frame: CGRect(x: 80, y: 580, width: 250, height: 20))
+        let label = UILabel(frame: CGRect(x: 80, y: 570, width: 250, height: 20))
         label.text = "카카오계정 또는 비밀번호 찾기"
         label.font = .boldSystemFont(ofSize: 12)
         label.textColor = .systemGray
