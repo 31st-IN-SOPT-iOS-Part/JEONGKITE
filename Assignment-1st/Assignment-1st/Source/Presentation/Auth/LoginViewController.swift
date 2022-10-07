@@ -45,12 +45,14 @@ class LoginViewController: UIViewController {
     private let loginButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 22, y: 440, width: 350, height: 50))
         button.setDefaultButton(title: "카카오계정 로그인")
+        button.addTarget(self, action: #selector(presentToWelcomeViewController), for: .touchUpInside)
         return button
     }()
     
     private let signupButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 22, y: 500, width: 350, height: 50))
         button.setDefaultButton(title: "새로운 카카오계정 만들기")
+        button.addTarget(self, action: #selector(pushToSignupViewController), for: .touchUpInside)
         return button
     }()
     
@@ -62,7 +64,7 @@ class LoginViewController: UIViewController {
         label.textAlignment = .center
         return label
     }()
-
+    
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,6 +79,20 @@ class LoginViewController: UIViewController {
         components.forEach {
             view.addSubview($0 as! UIView)
         }
-        
+    }
+    
+    // MARK: - Objc Function
+    @objc private func presentToWelcomeViewController() {
+        let welcomeViewController = WelcomeViewController()
+        if let userID = userIDTextField.text {
+            welcomeViewController.setTItleLabel(userID: userID)
+        }
+        welcomeViewController.modalPresentationStyle = .fullScreen
+        self.present(welcomeViewController, animated: true, completion: nil)
+    }
+    
+    @objc private func pushToSignupViewController() {
+        let signupViewController = SignupViewController()
+        self.navigationController?.pushViewController(signupViewController, animated: true)
     }
 }

@@ -42,6 +42,7 @@ class SignupViewController: UIViewController {
     private let signupButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 22, y: 500, width: 350, height: 50))
         button.setDefaultButton(title: "새로운 카카오계정 만들기")
+        button.addTarget(self, action: #selector(presentToWelcomeViewController), for: .touchUpInside)
         return button
     }()
     
@@ -61,5 +62,15 @@ class SignupViewController: UIViewController {
         components.forEach {
             view.addSubview($0 as! UIView)
         }
+    }
+    
+    // MARK: - Objc Function
+    @objc private func presentToWelcomeViewController() {
+        let welcomeViewController = WelcomeViewController()
+        if let userID = userIDTextField.text {
+            welcomeViewController.setTItleLabel(userID: userID)
+        }
+        welcomeViewController.modalPresentationStyle = .fullScreen
+        self.present(welcomeViewController, animated: true, completion: nil)
     }
 }
