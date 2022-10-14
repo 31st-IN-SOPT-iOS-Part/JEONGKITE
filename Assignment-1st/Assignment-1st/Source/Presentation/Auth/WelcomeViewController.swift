@@ -7,8 +7,10 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+import SnapKit
 
+class WelcomeViewController: UIViewController {
+    
     // MARK: - Property
     private let titleLabel: UILabel = {
         let label = UILabel(frame: CGRect(x: 80, y: 300, width: 250, height: 60))
@@ -28,10 +30,10 @@ class WelcomeViewController: UIViewController {
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         setUI()
     }
-
+    
     // MARK: - Function
     private func setUI() {
         view.backgroundColor = .white
@@ -41,17 +43,30 @@ class WelcomeViewController: UIViewController {
         }
     }
     
+    private func setLayout() {
+        view.addSubviews(titleLabel, finishButton)
+        
+        titleLabel.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.top.equalTo(view.safeAreaLayoutGuide).inset(200)
+        }
+        
+        finishButton.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.top.equalTo(titleLabel.snp.bottom).offset(180)
+            make.leading.trailing.equalTo(view.safeAreaLayoutGuide).inset(18)
+            make.height.equalTo(45)
+        }
+    }
+    
     func setTItleLabel(userID: String) {
         titleLabel.text = "\(userID)님\n환영합니다"
     }
     
     // MARK: - Objc Function
     @objc private func touchupFinishButton() {
-        if self.presentingViewController != nil {
-            self.dismiss(animated: true, completion: nil)
-        } else {
-            self.navigationController?.popViewController(animated: true)
-        }
+        let friendsViewController = FriendsViewController()
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootVC(friendsViewController, animated: false)
     }
 }
 

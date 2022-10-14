@@ -58,10 +58,11 @@ class SignupViewController: UIViewController {
     // MARK: - Function
     private func setUI() {
         view.backgroundColor = .white
-        let components: [Any] = [titleLabel, userIDTextField, passwordTextField, passwordCheckTextField, signupButton]
-        components.forEach {
-            view.addSubview($0 as! UIView)
-        }
+        
+    }
+    
+    private func setLayout() {
+        view.addSubviews(titleLabel, userIDTextField, passwordTextField, passwordCheckTextField, signupButton)
     }
     
     // MARK: - Objc Function
