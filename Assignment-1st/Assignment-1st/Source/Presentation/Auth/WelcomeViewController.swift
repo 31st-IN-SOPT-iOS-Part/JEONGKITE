@@ -47,10 +47,9 @@ class WelcomeViewController: UIViewController {
     
     // MARK: - Objc Function
     @objc private func touchupFinishButton() {
-        if self.navigationController == nil{
+        if self.presentingViewController != nil {
             self.dismiss(animated: true, completion: nil)
-        }
-        else{
+        } else {
             self.navigationController?.popViewController(animated: true)
         }
     }
