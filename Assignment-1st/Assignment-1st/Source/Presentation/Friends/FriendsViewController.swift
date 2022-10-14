@@ -11,9 +11,8 @@ import SnapKit
 import Then
 
 class FriendsViewController: UIViewController {
-
-    // MARK: - UI Property
     
+    // MARK: - Property
     private let topView = UIView()
     
     private let kakaoMainLabel = UILabel().then {
@@ -31,7 +30,6 @@ class FriendsViewController: UIViewController {
     }
     
     // MARK: - Life Cycle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,15 +37,7 @@ class FriendsViewController: UIViewController {
         setLayout()
     }
     
-    // MARK: - @objc
-    
-    @objc private func presentProfileDetailView() {
-        let profileViewController = ProfileViewController()
-        profileViewController.modalPresentationStyle = .fullScreen
-        self.present(profileViewController, animated: true)
-    }
-    
-    // MARK: - Custom Method
+    // MARK: - Function
     
     private func setBackgrountColor() {
         view.backgroundColor = .white
@@ -86,5 +76,11 @@ class FriendsViewController: UIViewController {
             $0.width.height.equalTo(58)
         }
     }
-
+    
+    // MARK: - Objc Function
+    @objc private func presentProfileDetailView() {
+        let profileViewController = ProfileViewController()
+        profileViewController.modalPresentationStyle = .fullScreen
+        self.present(profileViewController, animated: true)
+    }
 }

@@ -20,6 +20,7 @@ class WelcomeViewController: UIViewController {
         label.textAlignment = .center
         return label
     }()
+    
     private let finishButton: UIButton = {
         let button = UIButton()
         button.setDefaultButton(title: "확인", backgroundColor: .kakaoYellow)
