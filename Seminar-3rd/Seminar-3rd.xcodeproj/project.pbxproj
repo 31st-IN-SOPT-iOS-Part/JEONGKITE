@@ -7,102 +7,158 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DDDE0ADA28FA7CB6001B7E16 /* Seminar_3rdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0AD928FA7CB6001B7E16 /* Seminar_3rdApp.swift */; };
-		DDDE0ADC28FA7CB6001B7E16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0ADB28FA7CB6001B7E16 /* ContentView.swift */; };
-		DDDE0ADE28FA7CB7001B7E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDE0ADD28FA7CB7001B7E16 /* Assets.xcassets */; };
-		DDDE0AE128FA7CB7001B7E16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDE0AE028FA7CB7001B7E16 /* Preview Assets.xcassets */; };
+		DDDE0AF428FA7D13001B7E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0AF328FA7D13001B7E16 /* AppDelegate.swift */; };
+		DDDE0AF628FA7D13001B7E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0AF528FA7D13001B7E16 /* SceneDelegate.swift */; };
+		DDDE0AF828FA7D13001B7E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0AF728FA7D13001B7E16 /* ViewController.swift */; };
+		DDDE0AFB28FA7D13001B7E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDE0AF928FA7D13001B7E16 /* Main.storyboard */; };
+		DDDE0AFD28FA7D14001B7E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDE0AFC28FA7D14001B7E16 /* Assets.xcassets */; };
+		DDDE0B0028FA7D14001B7E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDE0AFE28FA7D14001B7E16 /* LaunchScreen.storyboard */; };
+		DDDE0B0828FA7D5C001B7E16 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0B0728FA7D5C001B7E16 /* FirstViewController.swift */; };
+		DDDE0B0A28FA7D65001B7E16 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0B0928FA7D65001B7E16 /* SecondViewController.swift */; };
+		DDDE0B0F28FA81CA001B7E16 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0B0E28FA81CA001B7E16 /* MusicModel.swift */; };
+		DDDE0B1128FA82A0001B7E16 /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0B1028FA82A0001B7E16 /* MusicListViewController.swift */; };
+		DDDE0B1428FA845C001B7E16 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DDDE0B1328FA845C001B7E16 /* SnapKit */; };
+		DDDE0B1728FA846F001B7E16 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DDDE0B1628FA846F001B7E16 /* Then */; };
+		DDDE0B1928FA89C9001B7E16 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0B1828FA89C9001B7E16 /* MusicTableViewCell.swift */; };
+		DDDE0B1C28FA8B73001B7E16 /* SwiftyColor in Frameworks */ = {isa = PBXBuildFile; productRef = DDDE0B1B28FA8B73001B7E16 /* SwiftyColor */; };
+		DDDE0B1E28FAA02A001B7E16 /* MusicGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0B1D28FAA02A001B7E16 /* MusicGridViewController.swift */; };
+		DDDE0B2028FAA04F001B7E16 /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE0B1F28FAA04F001B7E16 /* MusicCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DDDE0AD628FA7CB6001B7E16 /* Seminar-3rd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seminar-3rd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDDE0AD928FA7CB6001B7E16 /* Seminar_3rdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seminar_3rdApp.swift; sourceTree = "<group>"; };
-		DDDE0ADB28FA7CB6001B7E16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DDDE0ADD28FA7CB7001B7E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DDDE0AE028FA7CB7001B7E16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDDE0AF028FA7D13001B7E16 /* Seminar-3rd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seminar-3rd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDE0AF328FA7D13001B7E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDDE0AF528FA7D13001B7E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDDE0AF728FA7D13001B7E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDDE0AFA28FA7D13001B7E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDDE0AFC28FA7D14001B7E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDDE0AFF28FA7D14001B7E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDDE0B0128FA7D14001B7E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDE0B0728FA7D5C001B7E16 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DDDE0B0928FA7D65001B7E16 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DDDE0B0E28FA81CA001B7E16 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		DDDE0B1028FA82A0001B7E16 /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		DDDE0B1828FA89C9001B7E16 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		DDDE0B1D28FAA02A001B7E16 /* MusicGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGridViewController.swift; sourceTree = "<group>"; };
+		DDDE0B1F28FAA04F001B7E16 /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DDDE0AD328FA7CB6001B7E16 /* Frameworks */ = {
+		DDDE0AED28FA7D13001B7E16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDE0B1428FA845C001B7E16 /* SnapKit in Frameworks */,
+				DDDE0B1C28FA8B73001B7E16 /* SwiftyColor in Frameworks */,
+				DDDE0B1728FA846F001B7E16 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DDDE0ACD28FA7CB6001B7E16 = {
+		DDDE0AE728FA7D13001B7E16 = {
 			isa = PBXGroup;
 			children = (
-				DDDE0AD828FA7CB6001B7E16 /* Seminar-3rd */,
-				DDDE0AD728FA7CB6001B7E16 /* Products */,
+				DDDE0AF228FA7D13001B7E16 /* Seminar-3rd */,
+				DDDE0AF128FA7D13001B7E16 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DDDE0AD728FA7CB6001B7E16 /* Products */ = {
+		DDDE0AF128FA7D13001B7E16 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDDE0AD628FA7CB6001B7E16 /* Seminar-3rd.app */,
+				DDDE0AF028FA7D13001B7E16 /* Seminar-3rd.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDDE0AD828FA7CB6001B7E16 /* Seminar-3rd */ = {
+		DDDE0AF228FA7D13001B7E16 /* Seminar-3rd */ = {
 			isa = PBXGroup;
 			children = (
-				DDDE0AD928FA7CB6001B7E16 /* Seminar_3rdApp.swift */,
-				DDDE0ADB28FA7CB6001B7E16 /* ContentView.swift */,
-				DDDE0ADD28FA7CB7001B7E16 /* Assets.xcassets */,
-				DDDE0ADF28FA7CB7001B7E16 /* Preview Content */,
+				DDDE0B0B28FA81AB001B7E16 /* Music */,
+				DDDE0AF328FA7D13001B7E16 /* AppDelegate.swift */,
+				DDDE0AF528FA7D13001B7E16 /* SceneDelegate.swift */,
+				DDDE0B1D28FAA02A001B7E16 /* MusicGridViewController.swift */,
+				DDDE0B1F28FAA04F001B7E16 /* MusicCollectionViewCell.swift */,
+				DDDE0B0728FA7D5C001B7E16 /* FirstViewController.swift */,
+				DDDE0B0928FA7D65001B7E16 /* SecondViewController.swift */,
+				DDDE0AF728FA7D13001B7E16 /* ViewController.swift */,
+				DDDE0AF928FA7D13001B7E16 /* Main.storyboard */,
+				DDDE0AFC28FA7D14001B7E16 /* Assets.xcassets */,
+				DDDE0AFE28FA7D14001B7E16 /* LaunchScreen.storyboard */,
+				DDDE0B0128FA7D14001B7E16 /* Info.plist */,
 			);
 			path = "Seminar-3rd";
 			sourceTree = "<group>";
 		};
-		DDDE0ADF28FA7CB7001B7E16 /* Preview Content */ = {
+		DDDE0B0B28FA81AB001B7E16 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				DDDE0AE028FA7CB7001B7E16 /* Preview Assets.xcassets */,
+				DDDE0B0D28FA81BD001B7E16 /* Model */,
+				DDDE0B0C28FA81B3001B7E16 /* View */,
 			);
-			path = "Preview Content";
+			path = Music;
+			sourceTree = "<group>";
+		};
+		DDDE0B0C28FA81B3001B7E16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDDE0B1028FA82A0001B7E16 /* MusicListViewController.swift */,
+				DDDE0B1828FA89C9001B7E16 /* MusicTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDDE0B0D28FA81BD001B7E16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDDE0B0E28FA81CA001B7E16 /* MusicModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDDE0AD528FA7CB6001B7E16 /* Seminar-3rd */ = {
+		DDDE0AEF28FA7D13001B7E16 /* Seminar-3rd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDDE0AE428FA7CB7001B7E16 /* Build configuration list for PBXNativeTarget "Seminar-3rd" */;
+			buildConfigurationList = DDDE0B0428FA7D14001B7E16 /* Build configuration list for PBXNativeTarget "Seminar-3rd" */;
 			buildPhases = (
-				DDDE0AD228FA7CB6001B7E16 /* Sources */,
-				DDDE0AD328FA7CB6001B7E16 /* Frameworks */,
-				DDDE0AD428FA7CB6001B7E16 /* Resources */,
+				DDDE0AEC28FA7D13001B7E16 /* Sources */,
+				DDDE0AED28FA7D13001B7E16 /* Frameworks */,
+				DDDE0AEE28FA7D13001B7E16 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Seminar-3rd";
+			packageProductDependencies = (
+				DDDE0B1328FA845C001B7E16 /* SnapKit */,
+				DDDE0B1628FA846F001B7E16 /* Then */,
+				DDDE0B1B28FA8B73001B7E16 /* SwiftyColor */,
+			);
 			productName = "Seminar-3rd";
-			productReference = DDDE0AD628FA7CB6001B7E16 /* Seminar-3rd.app */;
+			productReference = DDDE0AF028FA7D13001B7E16 /* Seminar-3rd.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DDDE0ACE28FA7CB6001B7E16 /* Project object */ = {
+		DDDE0AE828FA7D13001B7E16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					DDDE0AD528FA7CB6001B7E16 = {
+					DDDE0AEF28FA7D13001B7E16 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = DDDE0AD128FA7CB6001B7E16 /* Build configuration list for PBXProject "Seminar-3rd" */;
+			buildConfigurationList = DDDE0AEB28FA7D13001B7E16 /* Build configuration list for PBXProject "Seminar-3rd" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +166,75 @@
 				en,
 				Base,
 			);
-			mainGroup = DDDE0ACD28FA7CB6001B7E16;
-			productRefGroup = DDDE0AD728FA7CB6001B7E16 /* Products */;
+			mainGroup = DDDE0AE728FA7D13001B7E16;
+			packageReferences = (
+				DDDE0B1228FA845C001B7E16 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DDDE0B1528FA846F001B7E16 /* XCRemoteSwiftPackageReference "Then" */,
+				DDDE0B1A28FA8B73001B7E16 /* XCRemoteSwiftPackageReference "SwiftyColor" */,
+			);
+			productRefGroup = DDDE0AF128FA7D13001B7E16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDDE0AD528FA7CB6001B7E16 /* Seminar-3rd */,
+				DDDE0AEF28FA7D13001B7E16 /* Seminar-3rd */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DDDE0AD428FA7CB6001B7E16 /* Resources */ = {
+		DDDE0AEE28FA7D13001B7E16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDE0AE128FA7CB7001B7E16 /* Preview Assets.xcassets in Resources */,
-				DDDE0ADE28FA7CB7001B7E16 /* Assets.xcassets in Resources */,
+				DDDE0B0028FA7D14001B7E16 /* LaunchScreen.storyboard in Resources */,
+				DDDE0AFD28FA7D14001B7E16 /* Assets.xcassets in Resources */,
+				DDDE0AFB28FA7D13001B7E16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DDDE0AD228FA7CB6001B7E16 /* Sources */ = {
+		DDDE0AEC28FA7D13001B7E16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDE0ADC28FA7CB6001B7E16 /* ContentView.swift in Sources */,
-				DDDE0ADA28FA7CB6001B7E16 /* Seminar_3rdApp.swift in Sources */,
+				DDDE0AF828FA7D13001B7E16 /* ViewController.swift in Sources */,
+				DDDE0AF428FA7D13001B7E16 /* AppDelegate.swift in Sources */,
+				DDDE0AF628FA7D13001B7E16 /* SceneDelegate.swift in Sources */,
+				DDDE0B0A28FA7D65001B7E16 /* SecondViewController.swift in Sources */,
+				DDDE0B1E28FAA02A001B7E16 /* MusicGridViewController.swift in Sources */,
+				DDDE0B0828FA7D5C001B7E16 /* FirstViewController.swift in Sources */,
+				DDDE0B2028FAA04F001B7E16 /* MusicCollectionViewCell.swift in Sources */,
+				DDDE0B0F28FA81CA001B7E16 /* MusicModel.swift in Sources */,
+				DDDE0B1128FA82A0001B7E16 /* MusicListViewController.swift in Sources */,
+				DDDE0B1928FA89C9001B7E16 /* MusicTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		DDDE0AF928FA7D13001B7E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDE0AFA28FA7D13001B7E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDDE0AFE28FA7D14001B7E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDE0AFF28FA7D14001B7E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		DDDE0AE228FA7CB7001B7E16 /* Debug */ = {
+		DDDE0B0228FA7D14001B7E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		DDDE0AE328FA7CB7001B7E16 /* Release */ = {
+		DDDE0B0328FA7D14001B7E16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,20 +348,19 @@
 			};
 			name = Release;
 		};
-		DDDE0AE528FA7CB7001B7E16 /* Debug */ = {
+		DDDE0B0528FA7D14001B7E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Seminar-3rd/Preview Content\"";
 				DEVELOPMENT_TEAM = Z429BM88YZ;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Seminar-3rd/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,20 +376,19 @@
 			};
 			name = Debug;
 		};
-		DDDE0AE628FA7CB7001B7E16 /* Release */ = {
+		DDDE0B0628FA7D14001B7E16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Seminar-3rd/Preview Content\"";
 				DEVELOPMENT_TEAM = Z429BM88YZ;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Seminar-3rd/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,25 +407,70 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDDE0AD128FA7CB6001B7E16 /* Build configuration list for PBXProject "Seminar-3rd" */ = {
+		DDDE0AEB28FA7D13001B7E16 /* Build configuration list for PBXProject "Seminar-3rd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDDE0AE228FA7CB7001B7E16 /* Debug */,
-				DDDE0AE328FA7CB7001B7E16 /* Release */,
+				DDDE0B0228FA7D14001B7E16 /* Debug */,
+				DDDE0B0328FA7D14001B7E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDDE0AE428FA7CB7001B7E16 /* Build configuration list for PBXNativeTarget "Seminar-3rd" */ = {
+		DDDE0B0428FA7D14001B7E16 /* Build configuration list for PBXNativeTarget "Seminar-3rd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDDE0AE528FA7CB7001B7E16 /* Debug */,
-				DDDE0AE628FA7CB7001B7E16 /* Release */,
+				DDDE0B0528FA7D14001B7E16 /* Debug */,
+				DDDE0B0628FA7D14001B7E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDDE0B1228FA845C001B7E16 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		DDDE0B1528FA846F001B7E16 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DDDE0B1A28FA8B73001B7E16 /* XCRemoteSwiftPackageReference "SwiftyColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/SwiftyColor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDDE0B1328FA845C001B7E16 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDDE0B1228FA845C001B7E16 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DDDE0B1628FA846F001B7E16 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDDE0B1528FA846F001B7E16 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		DDDE0B1B28FA8B73001B7E16 /* SwiftyColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDDE0B1A28FA8B73001B7E16 /* XCRemoteSwiftPackageReference "SwiftyColor" */;
+			productName = SwiftyColor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = DDDE0ACE28FA7CB6001B7E16 /* Project object */;
+	rootObject = DDDE0AE828FA7D13001B7E16 /* Project object */;
 }
