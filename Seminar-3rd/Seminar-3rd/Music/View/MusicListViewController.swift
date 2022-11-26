@@ -9,11 +9,12 @@ import UIKit
 
 import SnapKit
 import SwiftyColor
+import Moya
 
 // MARK: - MusicListViewController
 
 final class MusicListViewController: UIViewController {
-
+    
     // MARK: - UI Components
     
     private lazy var musicTableView: UITableView = {
@@ -28,6 +29,7 @@ final class MusicListViewController: UIViewController {
     }()
     
     // MARK: - Variables
+    let musicProvider = MoyaProvider<MusicRouter>(plugins: [NetworkLoggerPlugin(verbose: true)])
     
     var musicList: [MusicModel] = [
         MusicModel(albumImage: "albumImage1", title: "Eleven", singer: "IVE(아이브)"),
@@ -41,11 +43,39 @@ final class MusicListViewController: UIViewController {
         MusicModel(albumImage: "albumImage1", title: "Monologue", singer: "테이")
     ]
     
+    // MARK: - Server Helpers
+    private func fetchMusicList() {
+        musicProvider.request(.fetchSongs) { response in
+            switch response {
+            case .success(let result):
+                let status = result.statusCode
+                if status == 200 {
+                    do {
+                        let response = try result.map(FetchMusicResponseDto.self)
+                        for dto in response.data {
+                            self.musicList.append(dto.convertToMusic())
+                        }
+                        self.musicTableView.reloadData()
+                    }
+                    catch(let error) {
+                        print(error.localizedDescription)
+                    }
+                }
+                if status >= 400 {
+                    print("error")
+                }
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
     // MARK: - Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
         register()
         layout()
+        fetchMusicList()
     }
 }
 
@@ -97,5 +127,5 @@ extension MusicListViewController: UITableViewDataSource {
         musicCell.dataBind(model: musicList[indexPath.row])
         return musicCell
     }
-
+    
 }

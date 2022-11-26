@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD20A8B4292DC84300001411 /* SortedMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20A8B3292DC84300001411 /* SortedMusicViewController.swift */; };
+		DD20A8B6292DC88500001411 /* SingerCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20A8B5292DC88500001411 /* SingerCategoryCollectionViewCell.swift */; };
+		DD20A8B8292DC8A300001411 /* MusicContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20A8B7292DC8A300001411 /* MusicContainerCollectionViewCell.swift */; };
+		DD20A8BA292DC8BE00001411 /* SortedMusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20A8B9292DC8BE00001411 /* SortedMusicModel.swift */; };
+		DD20A8BD292DC94400001411 /* MusicGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20A8BB292DC94400001411 /* MusicGridViewController.swift */; };
+		DD20A8BE292DC94400001411 /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20A8BC292DC94400001411 /* MusicCollectionViewCell.swift */; };
+		DD6FD4F1292892E60014AFED /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DD6FD4F0292892E60014AFED /* Kingfisher */; };
+		DD6FD4F4292893840014AFED /* MusicResponseDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FD4F3292893840014AFED /* MusicResponseDto.swift */; };
+		DD6FD4F729289D830014AFED /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FD4F529289D830014AFED /* MusicListViewController.swift */; };
+		DD6FD4F829289D830014AFED /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FD4F629289D830014AFED /* MusicTableViewCell.swift */; };
+		DD6FD4FA29289EB60014AFED /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FD4F929289EB60014AFED /* MusicModel.swift */; };
+		DD6FD4FC2928A17A0014AFED /* MusicRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FD4FB2928A17A0014AFED /* MusicRouter.swift */; };
+		DD6FD4FF2928A4CD0014AFED /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FD4FE2928A4CD0014AFED /* MusicService.swift */; };
+		DD6FD5012928A8DB0014AFED /* NetworkBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FD5002928A8DB0014AFED /* NetworkBase.swift */; };
+		DD6FD5032928A9060014AFED /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FD5022928A9060014AFED /* NetworkResult.swift */; };
 		DD8EB9D929163A2800667F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EB9D829163A2800667F7A /* AppDelegate.swift */; };
 		DD8EB9DB29163A2800667F7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EB9DA29163A2800667F7A /* SceneDelegate.swift */; };
 		DD8EB9DD29163A2800667F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EB9DC29163A2800667F7A /* ViewController.swift */; };
@@ -14,9 +29,35 @@
 		DD8EB9E229163A2900667F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8EB9E129163A2900667F7A /* Assets.xcassets */; };
 		DD8EB9E529163A2900667F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8EB9E329163A2900667F7A /* LaunchScreen.storyboard */; };
 		DD8EB9EE29163BB800667F7A /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = DD8EB9ED29163BB800667F7A /* Moya */; };
+		DD8EB9F42916429900667F7A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EB9F32916429900667F7A /* Environment.swift */; };
+		DD8EB9F62916431C00667F7A /* NetworkLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EB9F52916431C00667F7A /* NetworkLoggerPlugin.swift */; };
+		DD8EB9F92916446F00667F7A /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EB9F82916446F00667F7A /* Encodable+.swift */; };
+		DD8EB9FC2916459B00667F7A /* UserRequestDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EB9FB2916459B00667F7A /* UserRequestDto.swift */; };
+		DD8EB9FE291645BD00667F7A /* UserResponseDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EB9FD291645BD00667F7A /* UserResponseDto.swift */; };
+		DD8EBA01291648F200667F7A /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EBA00291648F200667F7A /* UserRouter.swift */; };
+		DD8EBA0529164CA100667F7A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EBA0429164CA100667F7A /* SignupViewController.swift */; };
+		DD8EBA0729164CBC00667F7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EBA0629164CBC00667F7A /* LoginViewController.swift */; };
+		DD8EBA0A29164CE900667F7A /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DD8EBA0929164CE900667F7A /* Then */; };
+		DD8EBA0D29164D0500667F7A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DD8EBA0C29164D0500667F7A /* SnapKit */; };
+		DD8EBA1029164D1500667F7A /* SwiftyColor in Frameworks */ = {isa = PBXBuildFile; productRef = DD8EBA0F29164D1500667F7A /* SwiftyColor */; };
+		DD8EBA122916523600667F7A /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EBA112916523600667F7A /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD20A8B3292DC84300001411 /* SortedMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedMusicViewController.swift; sourceTree = "<group>"; };
+		DD20A8B5292DC88500001411 /* SingerCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		DD20A8B7292DC8A300001411 /* MusicContainerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicContainerCollectionViewCell.swift; sourceTree = "<group>"; };
+		DD20A8B9292DC8BE00001411 /* SortedMusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedMusicModel.swift; sourceTree = "<group>"; };
+		DD20A8BB292DC94400001411 /* MusicGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicGridViewController.swift; path = "../../../../Seminar-3rd/Seminar-3rd/MusicGridViewController.swift"; sourceTree = "<group>"; };
+		DD20A8BC292DC94400001411 /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicCollectionViewCell.swift; path = "../../../../Seminar-3rd/Seminar-3rd/MusicCollectionViewCell.swift"; sourceTree = "<group>"; };
+		DD6FD4F3292893840014AFED /* MusicResponseDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicResponseDto.swift; sourceTree = "<group>"; };
+		DD6FD4F529289D830014AFED /* MusicListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicListViewController.swift; path = "../../../../Seminar-3rd/Seminar-3rd/Music/View/MusicListViewController.swift"; sourceTree = "<group>"; };
+		DD6FD4F629289D830014AFED /* MusicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicTableViewCell.swift; path = "../../../../Seminar-3rd/Seminar-3rd/Music/View/MusicTableViewCell.swift"; sourceTree = "<group>"; };
+		DD6FD4F929289EB60014AFED /* MusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicModel.swift; path = "../../../../Seminar-3rd/Seminar-3rd/Music/Model/MusicModel.swift"; sourceTree = "<group>"; };
+		DD6FD4FB2928A17A0014AFED /* MusicRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRouter.swift; sourceTree = "<group>"; };
+		DD6FD4FE2928A4CD0014AFED /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
+		DD6FD5002928A8DB0014AFED /* NetworkBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkBase.swift; sourceTree = "<group>"; };
+		DD6FD5022928A9060014AFED /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		DD8EB9D529163A2800667F7A /* Seminar-4th.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seminar-4th.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8EB9D829163A2800667F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD8EB9DA29163A2800667F7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +66,15 @@
 		DD8EB9E129163A2900667F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD8EB9E429163A2900667F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD8EB9E629163A2900667F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8EB9F32916429900667F7A /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		DD8EB9F52916431C00667F7A /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
+		DD8EB9F82916446F00667F7A /* Encodable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+.swift"; sourceTree = "<group>"; };
+		DD8EB9FB2916459B00667F7A /* UserRequestDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequestDto.swift; sourceTree = "<group>"; };
+		DD8EB9FD291645BD00667F7A /* UserResponseDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponseDto.swift; sourceTree = "<group>"; };
+		DD8EBA00291648F200667F7A /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		DD8EBA0429164CA100667F7A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		DD8EBA0629164CBC00667F7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD8EBA112916523600667F7A /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,13 +82,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8EBA1029164D1500667F7A /* SwiftyColor in Frameworks */,
+				DD8EBA0D29164D0500667F7A /* SnapKit in Frameworks */,
 				DD8EB9EE29163BB800667F7A /* Moya in Frameworks */,
+				DD8EBA0A29164CE900667F7A /* Then in Frameworks */,
+				DD6FD4F1292892E60014AFED /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD20A8B2292DC82700001411 /* 5-Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				DD20A8B3292DC84300001411 /* SortedMusicViewController.swift */,
+				DD20A8B5292DC88500001411 /* SingerCategoryCollectionViewCell.swift */,
+				DD20A8B7292DC8A300001411 /* MusicContainerCollectionViewCell.swift */,
+				DD20A8B9292DC8BE00001411 /* SortedMusicModel.swift */,
+			);
+			path = "5-Seminar";
+			sourceTree = "<group>";
+		};
+		DD6FD4F22928936D0014AFED /* MusicDto */ = {
+			isa = PBXGroup;
+			children = (
+				DD6FD4F3292893840014AFED /* MusicResponseDto.swift */,
+			);
+			path = MusicDto;
+			sourceTree = "<group>";
+		};
+		DD6FD4FD2928A4BB0014AFED /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DD6FD4FE2928A4CD0014AFED /* MusicService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		DD8EB9CC29163A2800667F7A = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +139,9 @@
 		DD8EB9D729163A2800667F7A /* Seminar-4th */ = {
 			isa = PBXGroup;
 			children = (
+				DD8EB9F12916422800667F7A /* Support */,
+				DD8EB9F02916421500667F7A /* Network */,
+				DD8EB9EF2916420900667F7A /* Global */,
 				DD8EB9D829163A2800667F7A /* AppDelegate.swift */,
 				DD8EB9DA29163A2800667F7A /* SceneDelegate.swift */,
 				DD8EB9DC29163A2800667F7A /* ViewController.swift */,
@@ -67,6 +151,95 @@
 				DD8EB9E629163A2900667F7A /* Info.plist */,
 			);
 			path = "Seminar-4th";
+			sourceTree = "<group>";
+		};
+		DD8EB9EF2916420900667F7A /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				DD8EB9F22916427700667F7A /* Configuration */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		DD8EB9F02916421500667F7A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DD6FD5022928A9060014AFED /* NetworkResult.swift */,
+				DD6FD5002928A8DB0014AFED /* NetworkBase.swift */,
+				DD6FD4FD2928A4BB0014AFED /* Service */,
+				DD6FD4F22928936D0014AFED /* MusicDto */,
+				DD8EB9FF291648E700667F7A /* Router */,
+				DD8EB9FA291644F000667F7A /* RequestDto */,
+				DD8EB9F52916431C00667F7A /* NetworkLoggerPlugin.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DD8EB9F12916422800667F7A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				DD8EBA0329164C6A00667F7A /* ViewController */,
+				DD8EBA0229164C6700667F7A /* Model */,
+				DD8EB9F72916445E00667F7A /* Extensions */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		DD8EB9F22916427700667F7A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DD8EB9F32916429900667F7A /* Environment.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DD8EB9F72916445E00667F7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD8EB9F82916446F00667F7A /* Encodable+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD8EB9FA291644F000667F7A /* RequestDto */ = {
+			isa = PBXGroup;
+			children = (
+				DD8EB9FB2916459B00667F7A /* UserRequestDto.swift */,
+				DD8EB9FD291645BD00667F7A /* UserResponseDto.swift */,
+			);
+			path = RequestDto;
+			sourceTree = "<group>";
+		};
+		DD8EB9FF291648E700667F7A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DD8EBA00291648F200667F7A /* UserRouter.swift */,
+				DD6FD4FB2928A17A0014AFED /* MusicRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DD8EBA0229164C6700667F7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD6FD4F929289EB60014AFED /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD8EBA0329164C6A00667F7A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD20A8B2292DC82700001411 /* 5-Seminar */,
+				DD8EBA0429164CA100667F7A /* SignupViewController.swift */,
+				DD8EBA0629164CBC00667F7A /* LoginViewController.swift */,
+				DD8EBA112916523600667F7A /* InputView.swift */,
+				DD6FD4F529289D830014AFED /* MusicListViewController.swift */,
+				DD6FD4F629289D830014AFED /* MusicTableViewCell.swift */,
+				DD20A8BC292DC94400001411 /* MusicCollectionViewCell.swift */,
+				DD20A8BB292DC94400001411 /* MusicGridViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +260,10 @@
 			name = "Seminar-4th";
 			packageProductDependencies = (
 				DD8EB9ED29163BB800667F7A /* Moya */,
+				DD8EBA0929164CE900667F7A /* Then */,
+				DD8EBA0C29164D0500667F7A /* SnapKit */,
+				DD8EBA0F29164D1500667F7A /* SwiftyColor */,
+				DD6FD4F0292892E60014AFED /* Kingfisher */,
 			);
 			productName = "Seminar-4th";
 			productReference = DD8EB9D529163A2800667F7A /* Seminar-4th.app */;
@@ -118,6 +295,10 @@
 			mainGroup = DD8EB9CC29163A2800667F7A;
 			packageReferences = (
 				DD8EB9EC29163BB700667F7A /* XCRemoteSwiftPackageReference "Moya" */,
+				DD8EBA0829164CE900667F7A /* XCRemoteSwiftPackageReference "Then" */,
+				DD8EBA0B29164D0500667F7A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DD8EBA0E29164D1500667F7A /* XCRemoteSwiftPackageReference "SwiftyColor" */,
+				DD6FD4EF292892E60014AFED /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = DD8EB9D629163A2800667F7A /* Products */;
 			projectDirPath = "";
@@ -146,9 +327,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6FD4FC2928A17A0014AFED /* MusicRouter.swift in Sources */,
+				DD20A8B8292DC8A300001411 /* MusicContainerCollectionViewCell.swift in Sources */,
+				DD6FD4FF2928A4CD0014AFED /* MusicService.swift in Sources */,
+				DD20A8B4292DC84300001411 /* SortedMusicViewController.swift in Sources */,
+				DD20A8BE292DC94400001411 /* MusicCollectionViewCell.swift in Sources */,
 				DD8EB9DD29163A2800667F7A /* ViewController.swift in Sources */,
+				DD8EB9F42916429900667F7A /* Environment.swift in Sources */,
+				DD8EBA0529164CA100667F7A /* SignupViewController.swift in Sources */,
+				DD8EB9F62916431C00667F7A /* NetworkLoggerPlugin.swift in Sources */,
+				DD8EB9F92916446F00667F7A /* Encodable+.swift in Sources */,
+				DD20A8B6292DC88500001411 /* SingerCategoryCollectionViewCell.swift in Sources */,
+				DD6FD5012928A8DB0014AFED /* NetworkBase.swift in Sources */,
+				DD6FD4F829289D830014AFED /* MusicTableViewCell.swift in Sources */,
+				DD8EBA01291648F200667F7A /* UserRouter.swift in Sources */,
+				DD6FD4F729289D830014AFED /* MusicListViewController.swift in Sources */,
+				DD6FD5032928A9060014AFED /* NetworkResult.swift in Sources */,
+				DD20A8BD292DC94400001411 /* MusicGridViewController.swift in Sources */,
 				DD8EB9D929163A2800667F7A /* AppDelegate.swift in Sources */,
+				DD8EB9FE291645BD00667F7A /* UserResponseDto.swift in Sources */,
 				DD8EB9DB29163A2800667F7A /* SceneDelegate.swift in Sources */,
+				DD8EBA122916523600667F7A /* InputView.swift in Sources */,
+				DD6FD4F4292893840014AFED /* MusicResponseDto.swift in Sources */,
+				DD20A8BA292DC8BE00001411 /* SortedMusicModel.swift in Sources */,
+				DD6FD4FA29289EB60014AFED /* MusicModel.swift in Sources */,
+				DD8EB9FC2916459B00667F7A /* UserRequestDto.swift in Sources */,
+				DD8EBA0729164CBC00667F7A /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://3.34.53.11:8080";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z429BM88YZ;
@@ -321,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://3.34.53.11:8080";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z429BM88YZ;
@@ -368,6 +574,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DD6FD4EF292892E60014AFED /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		DD8EB9EC29163BB700667F7A /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya";
@@ -376,13 +590,57 @@
 				minimumVersion = 15.0.0;
 			};
 		};
+		DD8EBA0829164CE900667F7A /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DD8EBA0B29164D0500667F7A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		DD8EBA0E29164D1500667F7A /* XCRemoteSwiftPackageReference "SwiftyColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/SwiftyColor";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DD6FD4F0292892E60014AFED /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD6FD4EF292892E60014AFED /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		DD8EB9ED29163BB800667F7A /* Moya */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DD8EB9EC29163BB700667F7A /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = Moya;
+		};
+		DD8EBA0929164CE900667F7A /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD8EBA0829164CE900667F7A /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		DD8EBA0C29164D0500667F7A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD8EBA0B29164D0500667F7A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DD8EBA0F29164D1500667F7A /* SwiftyColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD8EBA0E29164D1500667F7A /* XCRemoteSwiftPackageReference "SwiftyColor" */;
+			productName = SwiftyColor;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
